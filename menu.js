@@ -34,7 +34,7 @@ function writeMenu() {
     "</li>" +
     "<br>" +
     "<li><a href='/view/contateAgente.html'>Contate a gente</a></li>" +
-    "<li><a href='/view/historia.html'>História</a></li>" +
+    "<li><a href='https://gabrielnakhata.github.io/curavicio/historia.html'>História</a></li>" +
     "</ul>" +
     "</div>" +
     "</ul>" +
