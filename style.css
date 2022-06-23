@@ -121,7 +121,7 @@ li {
     padding: 10px;
     z-index: 5;
     height: 30px;
-    width: flex;
+    width: 275px;
     font-family: 'Verdana';
     font-size: 18px;
 
@@ -134,7 +134,7 @@ li {
     padding: 10px;
     z-index: 5;
     height: 185px;
-    width: flex;
+    width: 275px;
     font-family: 'Verdana';
     font-size: 18px;
 }
