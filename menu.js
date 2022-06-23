@@ -264,6 +264,7 @@ function validarFormulario() {
     form.submit.focus();
     return false;
   } 
+  return openModal('dv-modal')
 }
 
 
