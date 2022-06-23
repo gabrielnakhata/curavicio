@@ -4,10 +4,9 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 header {
     width: 100%;
-    padding: 54px;
+    padding: 30px;
     background: linear-gradient(300.71deg, rgba(0, 166, 255, 0.5) 15.19%, rgba(2, 255, 200, 0.5) 70.83%);
     display: flex;
     align-items: center;
@@ -52,7 +51,7 @@ li {
 .menu li a {
 
 
-    font-size: 11px;
+    font-size: 14px;
     font-weight: bold;
     color: rgb(17, 89, 82);
     display: block;
@@ -62,26 +61,26 @@ li {
     border-radius: 10px;
     border-start-start-radius: 35px;
     border-end-end-radius: 100px;
+    
 
 }
 
 /* LINKS efeito */
 .menu li a:hover {
 
-    font-size: 11px;
+    font-size: 14px;
     font-weight: bold;
     padding: 1px 15px 5px 0px;
     color: rgb(17, 89, 82);
     display: block;
     text-decoration: none;
     background-color: rgb(186, 252, 250);
-
 }
 
 /* títulos, Home, Menu, e Sobre Nós */
 .menu li ul {
 
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(40, 67, 64);
     font-weight: bold;
     margin-left: 1px; 
