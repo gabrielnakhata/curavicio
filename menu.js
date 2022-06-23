@@ -235,6 +235,37 @@ function writeGrupo() {
   })()
 }
 
+function validarFormulario() {
+
+  const name = form.name.value;
+  const email = form.email.value;
+  const copia = form._cc.value;
+  const assunto = form._subject.value;
+  const edittxt = form.message.value;
+
+  if (name == "") {
+    alert("Campo nome é obrigatório!");
+    form.nome.focus();
+    return false;
+  } if (email == "") {
+    alert("Campo e-mail é obrigatório!");
+    form.email.focus();
+    return false;
+  } if (copia == "") {
+    alert("Campo cópia para o seu e-mail é obrigatório!");
+    form._cc.focus();
+    return false;
+  } if (assunto == "") {
+    alert("Campo assunto é obrigatório!");
+    form._subject.focus();
+    return false;
+  } if (edittxt == "") {
+    alert("Campo texto é obrigatório!");
+    form.submit.focus();
+    return false;
+  } 
+}
+
 
 function render() {
   document.getElementById("header").innerHTML = writeMenu();
