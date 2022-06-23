@@ -3,7 +3,7 @@ function writeMenu() {
     "<ul class='menu'>" +
     "<div class='flexmenu'>" +
     "<p>" +
-    "<a href='/view/index.html'><img src='/img/logo-cura-vicio.png' title='Home' class='imgLogo'></a>" +
+    "<a href='https://gabrielnakhata.github.io/curavicio/index.html'><img src='https://gabrielnakhata.github.io/curavicio/logo-cura-vicio.png' title='Home' class='imgLogo'></a>" +
     "</p>" +
     "<ul>" +
     "<p>&nbsp; &nbsp; &nbsp; &nbsp;</p>" +
@@ -13,9 +13,9 @@ function writeMenu() {
     "<ul>Menu</ul>" +
     "</li>" +
     "<br>" +
-    "<li><a href='/view/blogCuraVicio.html'>Blog Cura Vício</a></li>" +
-    "<li><a href='/view/dependenciaQuimica.html'>Dependências Químicas</a></li>" +
-    "<li><a href='/view/artigosCientificos.html'>Artigos Científicos</a></li>" +
+    "<li><a href='https://gabrielnakhata.github.io/curavicio/blogCuraVicio.html'>Blog Cura Vício</a></li>" +
+    "<li><a href='https://gabrielnakhata.github.io/curavicio/dependenciaQuimica.html'>Dependências Químicas</a></li>" +
+    "<li><a href='https://gabrielnakhata.github.io/curavicio/artigosCientificos.html'>Artigos Científicos</a></li>" +
     "</ul>" +
     "" +
     "<ul>" +
@@ -23,9 +23,9 @@ function writeMenu() {
     "<ul>Apoio</ul>" +
     "</li>" +
     "<br>" +
-    "<li><a href='/view/clinicasDeTratamento.html'>Clínicas de Tratamento</a></li>" +
-    "<li><a href='/view/gruposDeApoio.html'>Grupos de Apoio</a></li>" +
-    "<li><a href='/view/membrosInterdisciplinares.html'>Membros Interdisciplinares</a></li>" +
+    "<li><a href='https://gabrielnakhata.github.io/curavicio/clinicasDeTratamento.html'>Clínicas de Tratamento</a></li>" +
+    "<li><a href='https://gabrielnakhata.github.io/curavicio/gruposDeApoio.html'>Grupos de Apoio</a></li>" +
+    "<li><a href='https://gabrielnakhata.github.io/curavicio/membrosInterdisciplinares.html'>Membros Interdisciplinares</a></li>" +
     "</ul>" +
     "" +
     "<ul>" +
@@ -33,7 +33,7 @@ function writeMenu() {
     "<ul>Sobre Nós</ul>" +
     "</li>" +
     "<br>" +
-    "<li><a href='/view/contateAgente.html'>Contate a gente</a></li>" +
+    "<li><a href='https://gabrielnakhata.github.io/curavicio/contateAgente.html'>Contate a gente</a></li>" +
     "<li><a href='https://gabrielnakhata.github.io/curavicio/historia.html'>História</a></li>" +
     "</ul>" +
     "</div>" +
@@ -46,7 +46,7 @@ function writeFooter() {
   var footer = "<footer class='footer'>" +
     "<div class='footerFlex'>" +
     "<p>" +
-    "<img src='/img/logo-cura-vicio-white.png' title='Quem tem informação domina a situação - Sidarta Rebello' class='imgLogo'>" +
+    "<img src='https://gabrielnakhata.github.io/curavicio/logo-cura-vicio-white.png' title='Quem tem informação domina a situação - Sidarta Rebello' class='imgLogo'>" +
     "</p>" +
     "<br>" +
     "<p class='footerTxt'>|&nbsp; &nbsp; © CuraVício, Inc. 2022.</p>" +
