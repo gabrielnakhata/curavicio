@@ -58,11 +58,10 @@
               <div class="txt2"><label><strong>Messagem:</strong></label></div><br>
               <div><textarea class="editText" required name="comments" cols="15" rows="5"></textarea></div><br>
               <span class="erro"></span>
+              
+              <div><input class="button" required type="submit" onclick="validarFormulario(); openModal('dv-modal');" value="Enviar"></div><br>
 
-              <div><input class="button" required type="submit" onClick="openModal('dv-modal')" value="Enviar"></div><br>
-              <span class="erro"></span>
-
-              <input type="hidden" name="_next" value="http://localhost:5500/view/contateAgente.html">
+              <input type="hidden" name="_next" value="https://gabrielnakhata.github.io/curavicio/contateAgente.html">
               <input type="hidden" name="_captcha" value="false">
               <input type="text" name="_honey" style="display:none">
 
@@ -149,19 +148,21 @@
         </label>
     </article>
   </main>
-  <div id="dv-modal" class="modal">
+      
+ <div id="dv-modal" class="modal">
     <div class="modal-content">
       <div class="modal-header" class="txtBlocoJustify">
-        <p class="txtModal">&nbsp; &nbsp;>> E-mail enviado com sucesso!</p>
+        <p class="txtModal">E-mail enviado!</p>
       </div>
       <div class="modal-body">
-        <p class="txtBlocoModal">Em breve a equipe do Cura Vício<br> entrará em contato, obrigado!</p>
+        <p class="txtBlocoModal">Em breve a equipe do Cura Vício entrará em contato, obrigado!</p>
       </div>
       <div class="modal-footer">
         <button class="button" onClick="closeModal('dv-modal')">Fechar</button>
       </div>
     </div>
   </div>
+
     <br>
     <br>
     <div class="separador"></div>
