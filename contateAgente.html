@@ -43,25 +43,30 @@
             </div><br><br>
             <form action="https://formsubmit.co/d6b2af5c922f1e1312dc0130a68389f2" method="POST">
 
-              <div class="txt2" for="Nome"><label><strong>Nome:</strong></label></div><br>
+              <div class="txt2"><label><strong>Nome:</strong></label></div><br>
               <div><input class="inputText" required type="text" name="name"></div><br>
               <span class="erro"></span>
 
-              <div class="txt2"><label><strong>Email:</strong></label></div><br>
+              <div class="txt2"><label><strong>Preencha seu e-mail:</strong></label></div><br>
               <div><input class="inputText" required type="email" name="email"></div><br>
               <span class="erro"></span>
 
+              <div class="txt2"><label><strong>Envie-me uma cópia deste e-mail:</strong></label></div><br>
+              <div><input class="inputText" required type="email" name="_cc"></div><br>
+              <span class="erro"></span>
+
               <div class="txt2"><label><strong>Assunto:</strong></label></div><br>
-              <div><input class="inputText" required type="assunto" name="subject"></div><br>
+              <div><input class="inputText" required type="assunto" name="_subject"></div><br>
               <span class="erro"></span>
 
               <div class="txt2"><label><strong>Messagem:</strong></label></div><br>
-              <div><textarea class="editText" required name="comments" cols="15" rows="5"></textarea></div><br>
+              <div><textarea class="editText" required type="comments" cols="15" rows="5" name="message"></textarea></div><br>
               <span class="erro"></span>
-              
-             <div><input class="button" required type="submit" onclick="validarFormulario(); openModal('dv-modal')"; value="Enviar"></div><br>
 
-              <input type="hidden" name="_next" value="https://gabrielnakhata.github.io/curavicio/contateAgente.html">
+              <div><input class="button" required type="submit" onclick="validarFormulario(); openModal('dv-modal')"; value="Enviar"></div><br>
+
+             
+              <input type="hidden" name="_next" value="http://localhost:5500/view/contateAgente.html">
               <input type="hidden" name="_captcha" value="false">
               <input type="text" name="_honey" style="display:none">
 
